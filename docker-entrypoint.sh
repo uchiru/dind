@@ -1,6 +1,6 @@
 #!/bin/sh
 
-dockerd \
+dockerd $DOCKER_OPTS \
   --log-level=error \
   --host=unix:///var/run/docker.sock &
 
