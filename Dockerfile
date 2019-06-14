@@ -1,4 +1,4 @@
-FROM docker:17.06-dind
+FROM docker:18.09-dind
 
 RUN set -ex &&\
     apk add --no-cache git rsync openssh-client jq curl
